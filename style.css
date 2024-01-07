@@ -1,13 +1,13 @@
 /* Globaly shared styles */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .container {
-    width: 82.5%;
+    width: 83%;
     height: 500px;
     border: 0;
     border-radius: 16px;
@@ -58,4 +58,75 @@ h1{
     font-weight: 700;
     color: #070211;
     padding: 15px 0 40px;    
+}
+
+/* Party section style */
+.welcome-container {
+    background-image: linear-gradient(90deg, #070211 1%, rgba(7, 2, 17, 0.00) 100%), url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 83%;
+    height: 500px;
+    border: 0;
+    border-radius: 16px;
+    text-align:left;
+    margin: 41px 115px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+.welcome-party{
+    height: 550px;
+    border-radius: 16px;
+    padding-left: 200px;  
+}
+.welcome-party h2{
+    color: #fff;
+    font-size: 53px;
+    max-width: 530px;
+    font-weight: 900;
+    letter-spacing: 5.7px;
+    line-height: 72px;
+}
+.welcome-party p{
+    color: #f6f1f1;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    max-width: 575px;
+    font-weight: 400;
+    padding: 20px 0 40px;
+    line-height: 25px;
+}
+.welcome-container img{
+    width: 100%;
+    padding: 55px 115px 0;
+}
+.btn {
+    color: #fff;
+    background: #F00;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px 22px;
+    cursor: pointer;
+    border:0;
+    border-radius: 3px;
+}
+.btn:hover {
+    color: #000;
+    background: #fff;
+    border: 0;
+}
+
+/* Venue section style */
+.venue{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 83%;
+    height: 400px;
+    border: 0;
+    text-align:center;
+    margin: 0px 115px 100px;
+    font-family: 'Merriweather', serif;
 }
