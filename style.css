@@ -1,5 +1,6 @@
 /* Globaly shared styles */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@400;900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -33,4 +34,28 @@ h1{
     font-weight: 900;
     max-width: 520px;
     margin: 0 auto;
+}
+
+/* 65%off section style */
+
+.discount{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.discount h3{
+    color: #F00;
+    font-size: 73px;
+    font-weight: 700;
+    margin: 100px 0 40px;
+}
+.discount,p.red {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.discount, p.black {
+    font-size: 40px;
+    font-weight: 700;
+    color: #070211;
+    padding: 15px 0 40px;    
 }
