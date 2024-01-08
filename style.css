@@ -6,6 +6,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+.title {
+  font-family: "Merriweather", serif;
+  color: #070211;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+/* banner section style */
 .container {
   width: 83%;
   height: 500px;
@@ -170,10 +178,6 @@ span {
 }
 .new-offer-title,
 .portfolio-title h3 {
-  font-family: "Merriweather", serif;
-  color: #070211;
-  font-weight: 900;
-  font-size: 40px;
   padding-bottom: 18px;
 }
 p.new-offer-description {
@@ -291,6 +295,47 @@ p.portfolio-description {
 }
 .portfolio-img-container1 img {
   width: 380px;
-  
 }
 
+/* Newsletter section style */
+
+.newsletter-container {
+    width: 83%;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+}
+.newsletter {
+    text-align: center;
+}
+.newsletter img{
+    padding: 66px 0 33px;
+    width: 125px;
+}
+.newsletter h3{
+    padding: 33px 0 18px;
+}
+.newsletter p{
+    padding: 33px 0 18px;
+    text-align: center;
+}
+input {
+    padding: 20px 0 20px 25px;
+    margin: 33px 0 66px;
+    border: 0;  
+}
+input[type="email"] {
+    border-radius: 50px 0 0 50px;
+    padding: 20px 0 20px 25px;
+    width: 360px;
+}
+input[type="submit"] {
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    background: #f00;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 18px 45px;
+    cursor: pointer;
+}
