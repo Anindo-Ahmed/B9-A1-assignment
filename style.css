@@ -319,6 +319,10 @@ p.portfolio-description {
     padding: 33px 0 18px;
     text-align: center;
 }
+.form{
+    display: flex;
+    justify-content: center;
+}
 input {
     padding: 20px 0 20px 25px;
     margin: 33px 0 66px;
@@ -338,4 +342,54 @@ input[type="submit"] {
     font-weight: 600;
     padding: 18px 45px;
     cursor: pointer;
+}
+
+/* Footer section style */
+footer{
+    background-color: #070211;
+    margin: 100px auto 0;
+    color: #fff;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 115px;
+}
+.contact{
+    padding: 0 225px 0;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+}
+.icon text{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.icon img{
+    width: 20px;
+}
+hr {
+    height: 1px;
+    width: 1090px;
+    margin: 0 auto;
+    border-width: 0;
+    background: rgba(255, 255, 255, 0.15);
+
+}
+.social-network{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.social-network img{
+    width: 50px;
+    margin: 40px 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 115px 100px; 
 }
