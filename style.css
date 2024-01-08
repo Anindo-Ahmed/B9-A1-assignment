@@ -145,7 +145,7 @@ span{
 .new-offer{
     width: 83%;
     max-height: 400px;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -183,7 +183,7 @@ p.new-offer-description {
 }
 .new-year-section {
     text-align: right;
-    /* margin: auto 0; */
+
 }
 .year {
     font-family:'Inter', sans-serif;
@@ -203,4 +203,26 @@ p.new-offer-description {
 }
 .new-year-section img{
     width: 115px;
+}
+
+/* Holiday section style */
+.holiday-offer {
+    /* margin:100px auto; */
+}
+.holiday-offer-title {
+    text-align: center;
+}
+.holiday-offer-title p{
+    color: #070211;
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin:0 auto;
+}
+.holiday-offer-title h2{
+    color: #070211;
+    font-family:'Merriweather', serif;
+    font-size: 60px;
+    font-weight: 900;
+    
 }
