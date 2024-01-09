@@ -32,12 +32,12 @@
   border-radius: 16px;
 }
 
-h2 {
+.banner h2 {
   font-size: 20px;
   color: #fff;
   padding: 145px 0 10px 0;
 }
-h1 {
+.banner h1 {
   font-size: 60px;
   color: #fff;
   font-weight: 900;
@@ -78,7 +78,7 @@ p.black {
   background-repeat: no-repeat;
   background-size: cover;
   width: 83%;
-  height: 500px;
+  height: auto;
   border: 0;
   border-radius: 16px;
   text-align: left;
@@ -89,9 +89,10 @@ p.black {
   font-family: "Merriweather", serif;
 }
 .welcome-party {
-  height: 550px;
+  height: auto;
   border-radius: 16px;
   padding-left: 200px;
+  margin-bottom: 115px;
 }
 .welcome-party h2 {
   color: #fff;
@@ -102,7 +103,7 @@ p.black {
   line-height: 72px;
 }
 .welcome-party p {
-  color: #f6f1f1;
+  color: rgba(255, 255, 255, 0.80);
   font-size: 15px;
   font-family: "Inter", sans-serif;
   max-width: 575px;
@@ -112,7 +113,7 @@ p.black {
 }
 .welcome-container img {
   width: 100%;
-  padding: 55px 115px 0;
+  padding: 0 115px 0 30px;
 }
 .btn {
   color: #fff;
@@ -125,11 +126,11 @@ p.black {
   cursor: pointer;
   border: 0;
   border-radius: 3px;
+  transition: .3s;
 }
 .btn:hover {
   color: #000;
-  background: #fff;
-  border: 0;
+  background: rgb(235, 1, 1);
 }
 
 /* Venue section style */
@@ -187,22 +188,25 @@ p.new-offer-description {
   font-size: 16px;
   padding: 20px 55px 0 0;
   max-width: 325px;
+  line-height: 25px;
 }
 .img-section img {
-  width: 100%;
-  padding: 35px;
+  width: 83%;
+  padding: 30px;
   border: 10px solid #f00;
   border-radius: 460px;
+  position: relative;
+  transform: translate(8%, 0%);
 }
 .new-year-section {
-  text-align: right;
+  text-align: left;
 }
 .year {
   font-family: "Inter", sans-serif;
   color: #f00;
   font-weight: 700;
   font-size: 40px;
-  padding-bottom: 13px;
+  padding: 90px 0 13px;
 }
 .new-year-section p {
   font-family: "Inter", sans-serif;
@@ -210,11 +214,11 @@ p.new-offer-description {
   font-weight: 400;
   font-size: 16px;
   max-width: 225px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   line-height: 25px;
 }
 .new-year-section img {
-  width: 115px;
+  width: 110px;
 }
 
 /* Holiday section style */
@@ -224,6 +228,7 @@ p.new-offer-description {
 }
 .holiday-offer-title {
   text-align: center;
+  padding: 100px 0 0;
 }
 .holiday-offer-title p {
   color: #070211;
@@ -247,6 +252,7 @@ p.holiday-offer-description {
   max-width: 880px;
   margin: 0 auto;
   padding: 20px 0 57px;
+  line-height: 25px;
 }
 .img-container {
   display: flex;
@@ -283,6 +289,7 @@ p.portfolio-description {
   text-align: left;
   max-width: 740px;
   padding: 0 0 40px;
+  line-height: 25px;
 }
 
 .portfolio-img-container1 {
@@ -296,6 +303,9 @@ p.portfolio-description {
 .portfolio-img-container1 img {
   width: 380px;
 }
+.portfolio-img-container1 img:hover {
+  
+}
 
 /* Newsletter section style */
 
@@ -303,7 +313,7 @@ p.portfolio-description {
     width: 83%;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .newsletter {
     text-align: center;
@@ -316,8 +326,15 @@ p.portfolio-description {
     padding: 33px 0 18px;
 }
 .newsletter p{
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 740px;
+    margin: 0 auto;
     padding: 33px 0 18px;
     text-align: center;
+    line-height: 25px;
 }
 .form{
     display: flex;
@@ -342,6 +359,9 @@ input[type="submit"] {
     font-weight: 600;
     padding: 18px 45px;
     cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: rgb(235, 1, 1);
 }
 
 /* Footer section style */
