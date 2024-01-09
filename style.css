@@ -16,7 +16,7 @@
 /* banner section style */
 .container {
   width: 83%;
-  height: 500px;
+  height: auto;
   border: 0;
   border-radius: 16px;
   text-align: center;
@@ -28,14 +28,15 @@
     url("resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: auto;
   border-radius: 16px;
 }
 
 .banner h2 {
-  font-size: 20px;
+  font-size: 26px;
+  font-weight: 400;
   color: #fff;
-  padding: 145px 0 10px 0;
+  padding: 145px 0 10px;
 }
 .banner h1 {
   font-size: 60px;
@@ -43,6 +44,7 @@
   font-weight: 900;
   max-width: 520px;
   margin: 0 auto;
+  padding: 10px 0 185px;
 }
 
 /* 65%off section style */
@@ -55,7 +57,7 @@
   color: #f00;
   font-size: 73px;
   font-weight: 700;
-  margin: 100px 0 40px;
+  margin: 0px 0 40px;
 }
 .discount,
 p.red {
@@ -63,12 +65,16 @@ p.red {
   font-size: 20px;
   font-weight: 500;
 }
-.discount,
+.discount
 p.black {
   font-size: 40px;
   font-weight: 700;
   color: #070211;
   padding: 15px 0 40px;
+}
+.discount img{
+  max-width: 660px;
+  padding-bottom: 100px;
 }
 
 /* Party section style */
@@ -91,8 +97,8 @@ p.black {
 .welcome-party {
   height: auto;
   border-radius: 16px;
-  padding-left: 200px;
-  margin-bottom: 115px;
+  padding: 100px 0 100px 100px;
+  /* margin-bottom: 115px; */
 }
 .welcome-party h2 {
   color: #fff;
@@ -228,7 +234,6 @@ p.new-offer-description {
 }
 .holiday-offer-title {
   text-align: center;
-  padding: 100px 0 0;
 }
 .holiday-offer-title p {
   color: #070211;
@@ -287,7 +292,7 @@ p.portfolio-description {
   font-weight: 400;
   font-size: 16px;
   text-align: left;
-  max-width: 740px;
+  max-width: 750px;
   padding: 0 0 40px;
   line-height: 25px;
 }
@@ -319,7 +324,7 @@ p.portfolio-description {
     text-align: center;
 }
 .newsletter img{
-    padding: 66px 0 33px;
+    padding: 66px 0 0;
     width: 125px;
 }
 .newsletter h3{
@@ -332,7 +337,7 @@ p.portfolio-description {
     font-size: 16px;
     max-width: 740px;
     margin: 0 auto;
-    padding: 33px 0 18px;
+    padding: 0 0 40px;
     text-align: center;
     line-height: 25px;
 }
@@ -342,13 +347,17 @@ p.portfolio-description {
 }
 input {
     padding: 20px 0 20px 25px;
-    margin: 33px 0 66px;
+    margin: 0 0 66px;
     border: 0;  
 }
 input[type="email"] {
     border-radius: 50px 0 0 50px;
     padding: 20px 0 20px 25px;
     width: 360px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.3);
 }
 input[type="submit"] {
     border-radius: 0 50px 50px 0;
@@ -369,12 +378,16 @@ footer{
     background-color: #070211;
     margin: 100px auto 0;
     color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 .footer-section {
     display: flex;
     justify-content: space-between;
-    padding: 100px 115px;
+    padding: 100px 115px;  
 }
+
 .contact{
     padding: 0 225px 0;
 }
@@ -382,11 +395,6 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 13px;
-}
-.icon text{
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
 }
 .icon img{
     width: 20px;
